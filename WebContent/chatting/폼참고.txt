@@ -1,0 +1,26 @@
+<div class="container bootstrap snippet">
+    <div class="row">
+        <!-- <div class="col-md-4 col-md-offset-4"> -->
+          <div class="col-xs-12">
+            <div class="portlet portlet-default">
+                <div class="portlet-heading">
+                    <div class="portlet-title">
+                        <h4><i class="fa fa-circle text-green"></i>채팅방</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="chat" class="panel-collapse collapse in">
+
+                    <div id="chatList" class="portlet-body chat-widget" style="overflow-y: auto; width: auto; height: 600px;">
+                    </div>
+                    <div class="portlet-footer">
+                        <form role="form" name="myform" id="myform" onSubmit="return false;">
+                            <div class="row">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

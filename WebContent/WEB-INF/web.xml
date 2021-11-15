@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>cj200805</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>test2</servlet-name>
+    <servlet-class>T1106.Test2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>test2</servlet-name>
+    <url-pattern>/atom2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>test3</servlet-name>
+    <servlet-class>T1106.Test3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>test3</servlet-name>
+    <url-pattern>/atom3</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Test1_1</servlet-name>
+    <servlet-class>T1109.Test1_1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test1_1</servlet-name>
+    <url-pattern>/green1</url-pattern>
+  </servlet-mapping>
+</web-app>
